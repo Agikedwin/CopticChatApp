@@ -1,0 +1,104 @@
+https://www.youtube.com/watch?v=domt_Sx-wTY
+
+
+https://zustand.docs.pmnd.rs/getting-started/introduction
+
+
+npm run dev -- --host=172.20.10.5
+
+===========================================================Creating Video Call React App ====================================================================
+https://getstream.io/video/docs/react/guides/joining-and-creating-calls/ 
+
+https://getstream.io/video/sdk/react/tutorial/video-calling/
+
+https://www.youtube.com/watch?v=YGl4K--yrqQ&list=PLmG8DvWopp7T_DmzUzVuXYah9mohhLl_E&index=4
+
+//location
+https://www.youtube.com/watch?v=hneXIQUmKfQ 
+
+https://www.youtube.com/watch?v=2QxzJ0i1XxE&list=PLxefhmF0pcPkYI4E8RU_GaGWSrHqosV3q&index=5
+
+https://www.youtube.com/watch?v=7sG9kohQ_L4&list=PLgGjX33Qsw-H7iHehx8D_4MPn-Smo4i_0&index=1
+
+https://www.youtube.com/watch?v=PuOVqP_cjkE
+
+===========================================================APP================================================================================================
+
+Application Area of interest
+
+- Service providers should be able to initiate and sustain chats with the clients
+- Clients should be able to schedule appointment at a specific time they will visit the facility for the due appointment
+- Prep client should be able to scan nearest coptic facilities offering the certain services service to:
+
+    1. Make inquiry about the services being offered
+    2. Through the app know how far the facility is away from his/her physical location
+    3. Chat or call the facility through the app
+    
+- Clients and service providers should be able to share vital documents through the app(Ids for verification, lab resuts and scans, cervical screening results)
+- Integrating Telemedicine in the Web and mobile version of the application(Video calls and VON- Voice over the internet)
+
+Clients Using Future Phones(Kabambe)
+- The application can support clients who are yet to acquire smart phones:
+    1. The client should be able to send a meaage to a facility phone number
+    2. The message is directed to a table residing at the facility
+    3. In the table, the Hope Services Android based applications recieves the message and sends it to firebase cloud storage
+    4. The message received from the client is then pulled and pushed to the web application where the service providers can access it act accordingly.
+    5. Through the web portal, the service providers can send the message to clients using future phones.
+
+=====================Refine version=========================
+**Application Area of Interest**  
+
+### General Features  
+
+1. **Service Provider Communication**  
+   - Service providers should have the ability to initiate and sustain chats with clients directly through the application.  
+
+2. **Appointment Scheduling**  
+   - Clients must be able to schedule appointments for specific times to visit a facility for their consultations or services.  
+
+3. **Location-Based Service Discovery**  
+   - PrEP,GBV,clients should be able to locate nearby Coptic facilities offering relevant services.  
+     - **Inquiries:** Clients can make inquiries about the services offered.  
+     - **Distance Information:** The app should display how far a facility is from the client’s physical location.  
+     - **Communication:** Clients should have options to chat or call the facility directly through the app.  
+
+4. **Document Sharing**  
+   - Both clients and service providers should be able to share important documents securely through the app, such as:  
+     - IDs for verification.  
+     - Lab results and scans.  
+     - Cervical screening reports.  
+
+5. **Telemedicine Integration**  
+   - The application should support telemedicine functionality, including:  
+     - Video calls.  
+     - Voice-over-Internet Protocol (VoIP) for consultations.  
+
+---
+
+### Support for Clients Using Feature Phones (Non-Smartphones)  
+
+The application must cater to clients who rely on feature phones (e.g., *Kabambe*):  
+
+1. **Text Message Communication**  
+   - Clients can send SMS messages to a designated facility phone number.  
+
+2. **Message Processing Workflow**  
+   - The SMS is forwarded to a database or table at the facility.  
+   - The facility’s Hope Services Android-based application receives the message and uploads it to Firebase Cloud Storage.  
+   - The message is retrieved from Firebase and displayed on the web application, where service providers can review and respond.  
+
+3. **Provider-to-Client Communication**  
+   - Service providers can use the web portal to send replies to clients using feature phones.  
+
+This hybrid approach ensures accessibility for all clients, regardless of their device capabilities.
+
+========================================END===========================================================
+
+
+Multi-tenancy deployments of kenya EMR
+
+Dev empowerments to tech integrate EMR with other existing sytems may be through API 
+
+Sharing DB hosting server or other server infrastrature
+
+
